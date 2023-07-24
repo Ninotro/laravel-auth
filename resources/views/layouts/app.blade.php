@@ -74,6 +74,8 @@
                                     {{ __('Logout') }}
                                 </a>
 
+                                <a href="{{ route('projects.create') }}">Crea nuovo progetto</a>
+
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                     @csrf
                                 </form>
